@@ -15,7 +15,7 @@ debian:
 # Build Talos Template
 talos:
     packer init config.pkr.hcl
-    packer build -var-file="talos-1.12.pkrvars.hcl" -only=linux.* . 
+    packer build -var-file="talos-1.14.pkrvars.hcl" -only=linux.* . 
 
 # Build Arch Linux Template
 archlinux:
